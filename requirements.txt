@@ -1,0 +1,12 @@
+torch>=2.3
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+sentencepiece
+protobuf
+pyyaml
+tqdm
+numpy
+# Optional (Linux / Colab) — enables QLoRA 4-bit:
+# bitsandbytes>=0.43

@@ -1,0 +1,8 @@
+{
+  "model": "gpt2",
+  "adapter": "outputs/lora-adapter",
+  "n_eval": 5,
+  "base_f1": 0.03077597961370704,
+  "tuned_f1": 0.040379694554066606,
+  "relative_improvement_pct": 31.2052290809364
+}

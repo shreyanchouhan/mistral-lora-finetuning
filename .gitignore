@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+.venv/
+venv/
+
+# Hugging Face / model artifacts
+outputs/lora-adapter/checkpoint-*/
+outputs/**/optimizer.pt
+outputs/**/scheduler.pt
+outputs/**/rng_state*.pth
+outputs/**/training_args.bin
+outputs/**/global_step*/
+
+# Large data — keep the generator, drop the generated files
+data/train.jsonl
+data/eval.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+runs/
+wandb/
+
+# Zips
+*.zip
